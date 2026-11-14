@@ -22,3 +22,6 @@ Changes from v0.4.5
 - Matched PHILOSOPHY body size to ABOUT body text.
 - Kept SERVICE summary copy/style unchanged.
 - Set SERVICE “業務内容” title and bullet list to the summary font size with stronger weight.
+
+
+v0.5.0: 屋号を KS St Lab. に変更。提供ロゴをヘッダーとCONTACTに配置。既存構成は維持。
