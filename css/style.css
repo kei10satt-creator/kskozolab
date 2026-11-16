@@ -134,3 +134,9 @@
 .contact-wordmark .brand-symbol{width:66px;height:66px;filter:brightness(0) invert(1)}
 .contact-wordmark .brand-wordmark{font-size:clamp(21px,2.2vw,30px);color:#fff}
 @media(max-width:560px){.brand-identity{gap:9px}.brand-symbol{width:39px;height:39px}.brand-wordmark{font-size:17px}.contact-wordmark .brand-symbol{width:55px;height:55px}}
+
+/* Header logo: symbol and Montserrat lettering as independent elements, equal visual height */
+.site-header .brand-identity{display:flex;align-items:center;gap:12px;height:42px}
+.site-header .brand-symbol{width:42px;height:42px;flex:0 0 42px;object-fit:contain}
+.site-header .brand-wordmark{display:flex;align-items:center;height:42px;font-family:"Montserrat",sans-serif;font-size:30px;font-weight:400;letter-spacing:-.035em;line-height:1;white-space:nowrap}
+@media(max-width:560px){.site-header .brand-identity{height:32px;gap:9px}.site-header .brand-symbol{width:32px;height:32px;flex-basis:32px}.site-header .brand-wordmark{height:32px;font-size:22px}}
