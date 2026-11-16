@@ -124,3 +124,13 @@
 .brand-logo{display:block;width:clamp(135px,15vw,195px);height:auto;object-fit:contain}
 .contact-wordmark .brand-logo{width:clamp(180px,23vw,280px);filter:invert(1);mix-blend-mode:screen}
 @media(max-width:560px){.brand-logo{width:145px}.contact-wordmark .brand-logo{width:190px}}
+
+/* KS St Lab. symbol + Montserrat wordmark */
+.brand-identity{display:flex;align-items:center;gap:12px;white-space:nowrap}
+.brand-symbol{display:block;width:49px;height:49px;object-fit:contain}
+.brand-wordmark{font-family:"Montserrat",sans-serif;font-size:clamp(17px,1.65vw,24px);font-weight:400;letter-spacing:.015em;line-height:1.1}
+.global-nav,.section-index,.footer-brand{font-family:"Montserrat","Noto Sans JP",sans-serif}
+.contact-wordmark .brand-identity{gap:16px}
+.contact-wordmark .brand-symbol{width:66px;height:66px;filter:brightness(0) invert(1)}
+.contact-wordmark .brand-wordmark{font-size:clamp(21px,2.2vw,30px);color:#fff}
+@media(max-width:560px){.brand-identity{gap:9px}.brand-symbol{width:39px;height:39px}.brand-wordmark{font-size:17px}.contact-wordmark .brand-symbol{width:55px;height:55px}}
