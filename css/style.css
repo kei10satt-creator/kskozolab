@@ -140,3 +140,11 @@
 .site-header .brand-symbol{width:42px;height:42px;flex:0 0 42px;object-fit:contain}
 .site-header .brand-wordmark{display:flex;align-items:center;height:42px;font-family:"Montserrat",sans-serif;font-size:30px;font-weight:400;letter-spacing:-.035em;line-height:1;white-space:nowrap}
 @media(max-width:560px){.site-header .brand-identity{height:32px;gap:9px}.site-header .brand-symbol{width:32px;height:32px;flex-basis:32px}.site-header .brand-wordmark{height:32px;font-size:22px}}
+
+/* Header brand visibility fix: avoid stale style and preserve independent layout */
+.site-header .brand{display:inline-flex;flex-direction:row;align-items:center;width:auto;min-width:max-content;gap:0;line-height:normal;flex-shrink:0}
+.site-header .brand-identity{display:inline-flex;flex-direction:row;align-items:center;justify-content:flex-start;gap:12px;width:auto;height:54px;min-width:max-content;white-space:nowrap}
+.site-header .brand-symbol{display:block;width:54px;height:54px;min-width:54px;flex:0 0 54px;object-fit:contain}
+.site-header .brand-wordmark{display:block;width:auto;height:auto;min-width:max-content;font-family:"Montserrat",sans-serif;font-size:34px;font-weight:400;letter-spacing:-.025em;line-height:1.1;color:#161616;opacity:1;visibility:visible;white-space:nowrap}
+@media(max-width:900px){.site-header .brand-identity{height:42px;gap:10px}.site-header .brand-symbol{width:42px;height:42px;min-width:42px;flex-basis:42px}.site-header .brand-wordmark{font-size:26px}}
+@media(max-width:560px){.site-header .brand-identity{height:36px;gap:8px}.site-header .brand-symbol{width:36px;height:36px;min-width:36px;flex-basis:36px}.site-header .brand-wordmark{font-size:22px}}
